@@ -1,5 +1,5 @@
 class LinksController < ApplicationController
   def index
-    @links = Link.all
+    @links = Link.includes(:provider).all
   end
 end

@@ -1,1 +1,6 @@
-<li><%= link.title %></li>
+<li class="link-item">
+  <%= link_to link.url  do %>
+    <div class="link-title"><%= link.title %></div>
+    <div class="link-meta">from <span class="spanf08631"><%= link.provider_name %></span> at <span class="spanf08631"><%= link.published_at.strftime "%d/%m/%Y" %></span></div>
+  <% end  %>
+</li>

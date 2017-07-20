@@ -1,3 +1,38 @@
-// Place all the styles related to the links controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono');
+
+html, body {
+  font-family: 'Fira Mono', monospace;
+  color: #74675A;
+}
+
+ul, li {
+  list-style: none;
+}
+a {
+  color: #74675A;
+}
+
+.link-list {
+  padding-left: 15%;
+}
+
+.link-item {
+  padding: 1em 1em;
+  .link-title {
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  a {
+    text-decoration: none;
+  }
+
+  .link-meta {
+    padding-top: 0.3em;
+    font-size: 12px;
+  }
+}
+
+.spanf08631 {
+  color: #DC7563;
+}
